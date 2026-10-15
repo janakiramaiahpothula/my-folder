@@ -1,6 +1,6 @@
 #!/bin/bash
 name="Alice"
-greeting='Hello, $name'      # single quotes: literal, no expansion
+greeting="Hello, $name"     # single quotes: literal, no expansion
 greeting2="Hello, $name"     # double quotes: variables expand
 
 echo "$greeting"             # Hello, $name
